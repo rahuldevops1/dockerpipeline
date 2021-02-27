@@ -13,8 +13,8 @@ pipeline{
             name: 'DEPLOY-ENV',
             defaultValue: 'staging',
             description: 'This will be param')
-        )
-    }
+
+        }
     stages{
         stage('Test Stage'){
             environment {CLASS_NAME='DEVOPS'}
